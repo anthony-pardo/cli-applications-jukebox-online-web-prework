@@ -38,6 +38,7 @@ def play(songs)
       playing = true 
       break
     end 
+    
   end
   
   hash.each do |item, index| 
