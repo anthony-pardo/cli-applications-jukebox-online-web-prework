@@ -39,10 +39,6 @@ def play(songs)
       break
     end 
   end
-  hash.each do |item, index| 
-    updated_index = (index.to_i + 1)
-    
-  end
   
   hash.each do |item, index| 
     if input == item 
