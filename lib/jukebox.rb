@@ -33,15 +33,15 @@ def play(songs)
   playing = false
   hash = songs.each_with_index do |item, index| 
     updated_index = index.to_i + 1 
-    
-  end
-  hash.each do |item, index| 
-    updated_index = (index.to_i + 1)
     if updated_index == input.to_i 
       puts "Playing #{item}"
       playing = true 
       break
     end 
+  end
+  hash.each do |item, index| 
+    updated_index = (index.to_i + 1)
+    
   end
   
   hash.each do |item, index| 
