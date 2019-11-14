@@ -75,5 +75,7 @@ def run(songs)
     else 
       puts "Invalid input."
     end
+    puts "Please enter a command:"
+    input  = gets.strip
   end
 end
